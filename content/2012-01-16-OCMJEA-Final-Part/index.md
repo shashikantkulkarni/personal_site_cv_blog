@@ -1,7 +1,7 @@
 ---
 title: "OCMJEA Part II & III"
 path: blog/ocmjea-final-part
-tags: [architect, certified master, JEE, Oracle]
+tags: [architect, certifiedmaster, jee, oracle]
 cover: ./OCMJEA_Certificate.jpg
 date: 2012-01-16T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. I will start with one of my most happiest moments of life which is passing Oracle Certified Master, Java EE 5 Enterprise Architect certification(OCMJEA), previously known as Sun Certified Enterprise Architect (SCEA).
@@ -47,6 +47,6 @@ One need to be good in UML modeling.
 Think more about solving the business problem rather than worrying too much about JEE Technical stack. JEE Technical stack is very standard and well defined.
 Don’t change the problem statement in your SuD.
 
-Ever since that day, I was checking my email regularly and waiting eagerly for the results. Finally I received  email from Oracle that I passed on Dec 08, 2011.
+Ever since that day, I was checking my email regularly and waiting eagerly for the results. Finally I received email from Oracle that I passed on Dec 08, 2011.
 
 At last certified in OCMJEA/SCEA. Best of luck for SCEA5 aspirants!!!

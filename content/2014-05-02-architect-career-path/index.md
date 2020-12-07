@@ -1,7 +1,7 @@
 ---
 title: "Architect's career path"
 path: blog/architects-career-path
-tags: [software, Architecture, Career]
+tags: [software, architecture, career]
 cover: ./ArchitectRoles.jpg
 date: 2018-05-10T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. career path of any architect

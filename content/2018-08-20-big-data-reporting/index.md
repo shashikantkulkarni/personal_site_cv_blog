@@ -1,7 +1,7 @@
 ---
 title: "Big Data - Reporting"
 path: blog/big-data-reporting
-tags: [software, bigdata, reports, Cassandra, HDFS, Spark, Kafka]
+tags: [software, bigdata, reports, cassandra, hdfs, spark, kafka]
 cover: ./BigData_Architecture_Stages-Reporting.png
 date: 2018-08-20T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Here we are at the reporting stage. This is the phase where we generate useful information from the transformed data. This is “L” of ETL process.

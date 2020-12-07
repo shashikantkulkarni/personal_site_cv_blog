@@ -1,7 +1,7 @@
 ---
 title: "Big Data - Project architecture stages"
 path: blog/big-data-project-architecture-stages
-tags: [software, bigdata, architecture, Cassandra, HDFS, Spark, Kafka]
+tags: [software, bigdata, architecture, cassandra, hdfs, spark, kafka]
 cover: ./BigData_Architecture_Stages.png
 date: 2018-08-01T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Here are the high level stages in architecting the big data projects. This is a template. You can refer it as a guideline but this is not a rule.

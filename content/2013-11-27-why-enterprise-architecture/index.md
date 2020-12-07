@@ -1,7 +1,7 @@
 ---
 title: "Why Enterprise Architecture?"
 path: blog/why-enterprise-architecture
-tags: [software, Enterprise Architecture]
+tags: [software, enterprisearchitecture]
 cover: ./enterprise_architecture.png
 date: 2013-11-27T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Why Enterprise Architecture

@@ -1,7 +1,7 @@
 ---
 title: "Mumbai Dabbawalas and Apache Hadoop"
 path: blog/mumbai-dabbawalas-and-apache-hadoop
-tags: [Apache hadoop]
+tags: [apachehadoop]
 cover: ./apache_hadoop.png
 date: 2012-07-20T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Mumbai Dabbawalas and Apache Hadoop

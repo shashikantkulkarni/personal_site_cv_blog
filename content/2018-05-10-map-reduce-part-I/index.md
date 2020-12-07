@@ -1,7 +1,7 @@
 ---
 title: "Map Reduce - Part I"
 path: blog/map-reduce-part-I
-tags: [software, bigdata, HDFS, MapReduce]
+tags: [software, bigdata, hdfs, mapreduce]
 cover: ./Mapreduce.png
 date: 2018-05-10T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data in-parallel on large clusters of commodity hardware in a reliable, fault-tolerant manner.

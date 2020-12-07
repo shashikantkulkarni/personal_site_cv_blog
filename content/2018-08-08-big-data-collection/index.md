@@ -1,7 +1,7 @@
 ---
 title: "Big Data - Collecting Data"
 path: blog/big-data-collecting-data
-tags: [software, bigdata, HDFS, Spark, Kafka, flume, sqoop]
+tags: [software, bigdata, hdfs, spark, kafka, flume, sqoop]
 cover: ./BigData_Architecture_Stages-Acquire-Transport.png
 date: 2018-08-08T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Getting data into the BigData system depends on the source from where you want to collect the data.

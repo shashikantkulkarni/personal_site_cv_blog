@@ -1,7 +1,7 @@
 ---
 title: "Java doesn’t support multiple inheritance"
 path: blog/java-does-not-support-multiple-inheritance
-tags: [software, Architecture, Java, OOP, Inheritance]
+tags: [software, architecture, java, oop, inheritance]
 cover: ./inheritance-in-java.jpg
 date: 2018-04-30T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. career path of any architect

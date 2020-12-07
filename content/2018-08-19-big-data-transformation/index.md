@@ -1,7 +1,7 @@
 ---
 title: "Big Data - data transformation"
 path: blog/big-data-transformation
-tags: [software, bigdata, Spark, HDFS, MapReduce, Pentaho, Transform]
+tags: [software, bigdata, spark, hdfs, mapreduce, pentaho]
 cover: ./BigData_Architecture_Stages-Transformation.png
 date: 2018-08-17T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Once the data is in the BigData platform, we process it and transform it for getting useful information out of that data.

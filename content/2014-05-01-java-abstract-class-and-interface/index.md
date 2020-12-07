@@ -1,7 +1,7 @@
 ---
 title: "Java abstract class and interface"
 path: blog/java-abstract-class-and-interface
-tags: [software, Architecture, Java, OOP, Abstract class, Interface]
+tags: [software, architecture, java, oop, abstractclass, interface]
 cover: ./abstract-class-and-interface.png
 date: 2018-05-01T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. When to use abstract class and interface in Java
@@ -17,13 +17,13 @@ Abstract classes let you define some behaviors; they force your subclasses to pr
 
 Here are some guidelines on when to use an abstract class and when to use interfaces in Java:
 
-* An abstract class is good if you think you will plan on using inheritance since it provides a common base class implementation to derived classes.
-* An abstract class is also good if you want to be able to declare non-public members. In an interface, all methods must be public.
-* If you think you will need to add methods in the future, then an abstract class is a better choice. Because if you add new method headings to an interface, then all of the classes that already implement that interface will have to be changed to implement the new methods. That can be quite a hassle.
-* Interfaces are a good choice when you think that the API will not change for a while.
-* Interfaces are also good when you want to have something similar to multiple inheritances, since you can implement multiple interfaces.
-* Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
-* Members of a Java interface are public by default. A Java abstract class can have the usual flavors of class members like private, protected, etc.
-* An interface can extend another Java interface only; an abstract class can extend another Java class and implement multiple Java interfaces.
-* If there are a lot of methods in the contract, then abstract class is more useful because we can provide default implementation for some of the methods that are common for all the subclasses. Also if subclasses don’t need to implement particular method, they can avoid providing the implementation but in case of interface, the subclass will have to provide implementation for all the methods even though it’s of no use and implementation is just empty block.
-* If our base contract keeps on changing then interfaces can cause issues because we can’t declare additional methods to the interface without changing all the implementation classes, with abstract class we can provide the default implementation and only change the implementation classes that are actually going to use the new methods.
+- An abstract class is good if you think you will plan on using inheritance since it provides a common base class implementation to derived classes.
+- An abstract class is also good if you want to be able to declare non-public members. In an interface, all methods must be public.
+- If you think you will need to add methods in the future, then an abstract class is a better choice. Because if you add new method headings to an interface, then all of the classes that already implement that interface will have to be changed to implement the new methods. That can be quite a hassle.
+- Interfaces are a good choice when you think that the API will not change for a while.
+- Interfaces are also good when you want to have something similar to multiple inheritances, since you can implement multiple interfaces.
+- Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
+- Members of a Java interface are public by default. A Java abstract class can have the usual flavors of class members like private, protected, etc.
+- An interface can extend another Java interface only; an abstract class can extend another Java class and implement multiple Java interfaces.
+- If there are a lot of methods in the contract, then abstract class is more useful because we can provide default implementation for some of the methods that are common for all the subclasses. Also if subclasses don’t need to implement particular method, they can avoid providing the implementation but in case of interface, the subclass will have to provide implementation for all the methods even though it’s of no use and implementation is just empty block.
+- If our base contract keeps on changing then interfaces can cause issues because we can’t declare additional methods to the interface without changing all the implementation classes, with abstract class we can provide the default implementation and only change the implementation classes that are actually going to use the new methods.
