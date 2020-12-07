@@ -85,7 +85,7 @@ const DomContent = () => (
           </a> */}
           <img
             className={style.email}
-            src="../shashikant_email.png"
+            src="shashikant_email.png"
             alt="Email"
           />
         </li>
