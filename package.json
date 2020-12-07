@@ -2,9 +2,10 @@
   "name": "personal_site_cv_blog",
   "private": true,
   "description": "My portfolio website.",
-  "version": "1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -55,6 +56,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gatsby-plugin-eslint-v2": "^2.0.0-beta.0",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.19.1"
   },
   "repository": {
