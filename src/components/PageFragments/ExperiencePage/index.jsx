@@ -300,7 +300,7 @@ export default () => (
             <div className={style.row}>
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../chargeback.jpeg" alt="" />
+                  <img src="chargeback.jpeg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -326,7 +326,7 @@ export default () => (
               </div>
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project9.jpg" alt="" />
+                  <img src="project9.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -348,7 +348,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project1.jpg" alt="" />
+                  <img src="project1.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -374,7 +374,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project2.jpg" alt="" />
+                  <img src="project2.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -391,7 +391,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project3.jpg" alt="" />
+                  <img src="project3.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -410,7 +410,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project4.jpg" alt="" />
+                  <img src="project4.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -435,7 +435,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project5.jpg" alt="" />
+                  <img src="project5.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -460,7 +460,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project6.jpg" alt="" />
+                  <img src="project6.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -481,7 +481,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project7.jpg" alt="" />
+                  <img src="project7.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -501,7 +501,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../quiksilver.svg" alt="" />
+                  <img src="quiksilver.svg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -522,7 +522,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project10.jpg" alt="" />
+                  <img src="project10.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -543,7 +543,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project11.jpg" alt="" />
+                  <img src="project11.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -571,7 +571,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project1.jpg" alt="" />
+                  <img src="project1.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -593,7 +593,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project2.jpg" alt="" />
+                  <img src="project2.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -618,7 +618,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project3.jpg" alt="" />
+                  <img src="project3.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -644,7 +644,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project4.jpg" alt="" />
+                  <img src="project4.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -666,7 +666,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project5.jpg" alt="" />
+                  <img src="project5.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>
@@ -690,7 +690,7 @@ export default () => (
 
               <div className={`${style.project} ${style.shadowLarge}`}>
                 <div className={style.projectImage}>
-                  <img src="../project6.jpg" alt="" />
+                  <img src="project6.jpg" alt="" />
                 </div>
 
                 <div className={style.projectInfo}>

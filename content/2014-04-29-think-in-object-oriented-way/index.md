@@ -7,7 +7,7 @@ date: 2018-04-29T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Think in object oriented way
 ---
 
-# Think in object oriented way
+## Think in object oriented way
 
 Following techniques will force you to think in object oriented way, even though you may not yet be aware of them.
 
