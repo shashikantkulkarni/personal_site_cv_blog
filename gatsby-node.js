@@ -43,13 +43,13 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
-    const regexForIndex = /index\.md$/;
+    /* const regexForIndex = /index\.md$/;
     // Posts in default language, excluded the translated versions
     const defaultPosts = allMarkdownRemark.edges
       .filter(({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex));
-
+ */
     /* Tag pages */
-    const allTags = [];
+    /* const allTags = [];
     defaultPosts.forEach(({ node }) => {
       node.frontmatter.tags.forEach((tag) => {
         if (allTags.indexOf(tag) === -1) allTags.push(tag);
@@ -65,7 +65,7 @@ exports.createPages = ({ actions, graphql }) => {
             tag,
           },
         });
-      });
+      }); */
 
     return 1;
   });

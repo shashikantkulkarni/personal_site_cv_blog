@@ -32,8 +32,8 @@ Some of the questions and their answers are very much confusing . Take a good sl
 
 A lot of thanks to Javaranch members in SCEA5 forum. It’s very valuable website and most of the updates, strategies are being discussed out there. Following two sites helped me a lot for clearing my doubts.
 
-http://www.coderanch.com/how-to/java/SceaFaq
-http://www.coderanch.com/forums/f-26/java-Architect-SCEA
+[SceaFAQ](http://www.coderanch.com/how-to/java/SceaFaq "SceaFAQ")
+[Java Architect SCEA](http://www.coderanch.com/forums/f-26/java-Architect-SCEA "Java Architect SCEA")
 
 I will say it’s not the certification but what all we have learned during the preparation that matters.
 
