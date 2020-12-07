@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '',
+  pathPrefix: '/personal_site_cv_blog',
   siteUrl: 'http://shashikantkulkarni.com',
   siteTitle: 'Shashikant Kulkarni',
   siteDescription: 'Journal of a software engineer',
