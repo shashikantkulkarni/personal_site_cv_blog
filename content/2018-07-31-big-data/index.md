@@ -2,7 +2,7 @@
 title: "Big Data"
 path: blog/big-data
 tags: [software, bigdata, reports]
-cover: ./BigData.png
+cover: BigData.png
 date: 2018-07-31T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. According to Gartner Big Data is high-volume, high-velocity and/or high-variety information assets that demand cost-effective, innovative forms of information processing that enable enhanced insight, decision making, and process automation.
 ---

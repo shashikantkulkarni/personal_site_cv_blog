@@ -63,7 +63,7 @@ export default class Resume extends Component {
           </Col>
         </Row>
         <Document
-          file="../resume.pdf"
+          file="resume.pdf"
           onLoadSuccess={this.onDocumentLoadSuccess}
         >
           <Page size="A4" pageNumber={pageNumber} />

@@ -2,7 +2,7 @@
 title: "Java abstract class and interface"
 path: blog/java-abstract-class-and-interface
 tags: [software, architecture, java, oop, abstractclass, interface]
-cover: ./abstract-class-and-interface.png
+cover: abstract-class-and-interface.png
 date: 2018-05-01T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. When to use abstract class and interface in Java
 ---

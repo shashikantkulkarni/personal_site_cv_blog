@@ -2,7 +2,7 @@
 title: "Think in object oriented way"
 path: blog/think-in-object-oriented-way
 tags: [software, architecture, java, oop]
-cover: ./oop.png
+cover: oop.png
 date: 2018-04-29T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Think in object oriented way
 ---

@@ -2,7 +2,7 @@
 title: "Map Reduce - Part II"
 path: blog/map-reduce-part-II
 tags: [software, bigdata, hdfs, mapreduce]
-cover: ./Mapreduce.png
+cover: Mapreduce.png
 date: 2018-05-11T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data in-parallel on large clusters of commodity hardware in a reliable, fault-tolerant manner.
 ---
@@ -21,7 +21,7 @@ Reducer has 3 primary phases:
 
 1. **Shuffle**: The Reducer copies the sorted output from each Mapper using HTTP across the network.
 1. **Sort**: The framework merge sorts Reducer inputs by keys (since different Mappers may have output the same key).
-The shuffle and sort phases occur simultaneously i.e. while outputs are being fetched they are merged.
+   The shuffle and sort phases occur simultaneously i.e. while outputs are being fetched they are merged.
 1. **Reduce**: In this phase the reduce method is called for each <key, (collection of values)> in the sorted inputs.
-The output of the reduce task is typically written to a RecordWriter.
-The output of the Reducer is not **re-sorted**.
+   The output of the reduce task is typically written to a RecordWriter.
+   The output of the Reducer is not **re-sorted**.

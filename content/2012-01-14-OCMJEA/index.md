@@ -2,7 +2,7 @@
 title: "OCMJEA / SCEA"
 path: blog/ocmjea
 tags: [architect, certifiedmaster, jee, oracle]
-cover: ./OCMJEA_Certificate.jpg
+cover: OCMJEA_Certificate.jpg
 date: 2012-01-14T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. I will start with one of my most happiest moments of life which is passing Oracle Certified Master, Java EE 5 Enterprise Architect certification(OCMJEA), previously known as Sun Certified Enterprise Architect (SCEA).
 ---

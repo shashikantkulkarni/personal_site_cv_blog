@@ -2,7 +2,7 @@
 title: "Big Data - Save data on BigData server"
 path: blog/big-data-save-data-on-server
 tags: [software, bigdata, cassandra, hdfs, mongodb, mysql, neo4j]
-cover: ./BigData_Architecture_Stages-Persist.png
+cover: BigData_Architecture_Stages-Persist.png
 date: 2018-08-19T05:25:44.226Z
 excerpt: Blogging and writing about tech stacks is always been my thing. Once the data is collected, we may want to save it for further processing.
 ---
