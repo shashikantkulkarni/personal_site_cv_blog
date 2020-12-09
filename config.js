@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/personal_site_cv_blog',
+  pathPrefix: '/',
   siteUrl: 'http://shashikantkulkarni.com',
   siteTitle: 'Shashikant Kulkarni',
   siteDescription: 'Journal of a software engineer',
@@ -86,8 +86,8 @@ module.exports = {
     },
     interface: {
       name: 'Interface',
-      description: 'Java Interfaces',
-      color: '#257acc',
+        description: 'Java Interfaces',
+        color: '#257acc',
     },
     abstractclass: {
       name: 'Abstract Class',
