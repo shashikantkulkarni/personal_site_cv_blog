@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://shashikantkulkarni.com">
-    <img alt="Gatsby" src="https://github.com/shashikantkulkarni/personal_site_cv_blog/blob/master/src/images/icon.png" width="60" />
+    <img alt="Gatsby" src="https://github.com/shashikantkulkarni/personal_site_cv_blog/blob/master/src/images/favicon.ico" width="60" />
   </a>
 </p>
 <h1 align="center">
