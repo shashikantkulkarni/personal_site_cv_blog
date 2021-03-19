@@ -86,8 +86,8 @@ module.exports = {
     },
     interface: {
       name: 'Interface',
-        description: 'Java Interfaces',
-        color: '#257acc',
+      description: 'Java Interfaces',
+      color: '#257acc',
     },
     abstractclass: {
       name: 'Abstract Class',

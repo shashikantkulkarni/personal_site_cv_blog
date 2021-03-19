@@ -6,7 +6,7 @@ import Utils from '../../utils/pageUtils';
 
 const PostCard = (props) => {
   const { data: { node: { frontmatter } } } = props;
-  console.log(JSON.stringify(frontmatter));
+
   return (
     <div className={style.postCard}>
       <Link to={Utils.resolvePageUrl(frontmatter.path)}>

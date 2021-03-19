@@ -18,7 +18,7 @@ export default () => (
               </span>
               <div
                 data-date="April 2018 – Till today"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Self employed</h3>
                 <h4>Freelancer, Consultant</h4>
@@ -43,7 +43,7 @@ export default () => (
               </span>
               <div
                 data-date="July 2016 – March 2018"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>KSolves</h3>
                 <h4>VP Technology</h4>
@@ -70,7 +70,7 @@ export default () => (
               </span>
               <div
                 data-date="September 2014 – June 2016"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>KSolves</h3>
                 <h4>Software Architect</h4>
@@ -93,7 +93,7 @@ export default () => (
               </span>
               <div
                 data-date="July 2012 – September 2014"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Tieto software solutions India Ltd</h3>
                 <h4>Senior Software Architect</h4>
@@ -116,7 +116,7 @@ export default () => (
               </span>
               <div
                 data-date="January 2010 – June 2012"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Tieto software solutions India Ltd</h3>
                 <h4>Software Architect</h4>
@@ -138,7 +138,7 @@ export default () => (
               </span>
               <div
                 data-date="November 2008 – December 2009"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Geometric Software solutions Ltd</h3>
                 <h4>Group Lead</h4>
@@ -160,7 +160,7 @@ export default () => (
               </span>
               <div
                 data-date="September 2007 – November 2008"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Geometric Inc</h3>
                 <h4>Technical Consultant</h4>
@@ -183,7 +183,7 @@ export default () => (
               </span>
               <div
                 data-date="April 2007 – August 2007"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Geometric Inc</h3>
                 <h4>Technical Consultant</h4>
@@ -207,7 +207,7 @@ export default () => (
               </span>
               <div
                 data-date="October 2006 – March 2007"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Geometric Software solutions Ltd</h3>
                 <h4>Tech Lead</h4>
@@ -231,7 +231,7 @@ export default () => (
               </span>
               <div
                 data-date="Feb 2004 – September 2006"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Geometric Software solutions Ltd</h3>
                 <h4>Group Lead</h4>
@@ -254,7 +254,7 @@ export default () => (
               <span className={style.vtimelineDate}>March 2001 – Jan 2004</span>
               <div
                 data-date="March 2001 – Jan 2004"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Geometric Software solutions Ltd.</h3>
                 <h4>Software Engineer</h4>
@@ -277,7 +277,7 @@ export default () => (
               </span>
               <div
                 data-date="November 2000 – February 2001"
-                className={style.vtimelineContent}
+                className={`${style.vtimelineContent} ${style.shadowLarge}`}
               >
                 <h3>Vishwagan Infosoft</h3>
                 <h4>Developer</h4>
