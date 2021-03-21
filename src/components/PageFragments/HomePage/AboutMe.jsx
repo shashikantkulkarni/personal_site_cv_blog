@@ -6,16 +6,22 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hi! My name is Shashikant Kulkarni. I'm a software engineer, Oracle certified software architect,
-    certified Java developer, Cloudera certified hadoop developer, bigdata developer. I'm also a full stack web developer who is
-    passionate about various frontend and backend technologies. I like to experiment with different
-    technologies. I have an experience of nearly 19 years working with Java, Python, Spring boot, PHP, LAMP stack, JavaEE, Apache Spark,
-    Apache Cassandra, Apache Kafka, ReactJS, Angular, AWS. I'm Machine Learning and AI enthusiast. Writing blogs about tech stacks
-    is what Shashikant loves to do. Check my blog which I update frequently.`,
-  paraTwo: `<b>Currently I provide consultancy in Big Data projects, especially in Apache Spark, Apache Cassandra, AWS Services and Spring boot.</b>
+  paraOne: `Hi! My name is Shashikant Kulkarni. I'm a software engineer, <b>Oracle certified software architect</b>,
+    <b>certified Java developer</b>, <b>Cloudera certified hadoop developer</b>, bigdata developer. I like to experiment with different
+    technologies. I have an experience working with <b>Java, Python, Spring boot, PHP, LAMP stack, JavaEE, Apache Spark,
+    Apache Cassandra, Apache Kafka, NiFi, AWS</b>, ReactJS, Angular. I'm Machine Learning and AI enthusiast.`,
+  paraTwo: `<b>I provide consultancy in Big Data projects, especially in Apache Spark, Apache Cassandra, AWS Services and Spring boot.</b>
     I also have hands on experience working with cloud infrastructures like <b>AWS</b> and have deployed applications
-    keeping scalability, availability, security and performance in mind. Jenkins, AWS code pipeline are some of the cool
+    keeping scalability, availability, security and performance in mind. Jenkins, AWS code pipeline are some of the
     tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraThree: `➢ I am capable of working in a collaborative, multi-site environment to support rapid development and delivery of results and capabilities.
+    <br>➢ I have comprehensive experience of architecting, designing, developing and deploying architectures
+    for software applications.<br>➢ Experience in handling customers having global presence, <br>➢ Build relationships with business clients through quality work deliveries.
+    <br>➢ Ability to interact with clients to define user requirements and application architecture. <br>➢ Assisting Project Manager in planning, team ramp - up,
+    <br>➢ Facilitate design / architectural discussions, estimation, status and stand - up meetings, <br>➢ Contributes to documenting design, functional specification, test cases, project risks,
+    <br>➢ Experience in transitioning applications from onshore to offshore, <br>➢ Constitute a technical gateway between the project manager and the developers and business
+    experts.
+    `,
 };
 
 const AboutMe = () => {
@@ -45,8 +51,9 @@ const AboutMe = () => {
           ]}
         />
         <h1 className="titleSeparate">About Me</h1>
-        <p>{pageText.paraOne}</p>
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -71,6 +78,16 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
+            textH4="Pursued C-DAC"
+            textH3="Center for diploma in advance computing"
+            height={60}
+            width={60}
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="graduation.png"
+            alt="graduation image"
             textH4="Pursued B.E. in"
             textH3="Production Engineering"
             height={60}
@@ -87,20 +104,20 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        {/* <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="motorcycle.png"
             alt="motorcycle image"
             textH4="Love Riding"
             textH3="Biker for life"
           />
-        </Col>
+        </Col> */}
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            textH4="Keep learning"
+            textH3="From people I meet"
           />
         </Col>
         {/* <Col xs={24} sm={24} md={12} lg={8}>
