@@ -8,6 +8,20 @@ const SkillsProgress = () => (
     <h2>Primary Skills</h2>
     <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12}>
+        <ProgressBar percent={99} text="AWS" />
+        <ProgressBar percent={99} text="Route53" />
+        <ProgressBar percent={95} text="Cloudfront" />
+        <ProgressBar percent={90} text="API Gateway" />
+      </Col>
+      <Col xs={24} sm={24} md={12}>
+        <ProgressBar percent={99} text="S3" />
+        <ProgressBar percent={90} text="EC2" />
+        <ProgressBar percent={80} text="EKS" />
+        <ProgressBar percent={60} text="MSK" />
+      </Col>
+    </Row>
+    <Row gutter={[20, 20]}>
+      <Col xs={24} sm={24} md={12}>
         <ProgressBar percent={90} text="Java" />
         <ProgressBar percent={90} text="JavaEE" />
         <ProgressBar percent={75} text="Spring Boot" />
@@ -22,10 +36,10 @@ const SkillsProgress = () => (
     </Row>
     <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12}>
-        <ProgressBar percent={90} text="Amazon Web Services" />
+        <ProgressBar percent={90} text="VPC" />
         <ProgressBar percent={95} text="AWS Serverless" />
         <ProgressBar percent={90} text="AWS Lambda" />
-        <ProgressBar percent={85} text="AWS DynamoDB" />
+        <ProgressBar percent={85} text="SNS, SES" />
       </Col>
       <Col xs={24} sm={24} md={12}>
         <ProgressBar percent={95} text="REST API" />
@@ -39,6 +53,18 @@ const SkillsProgress = () => (
     <Row gutter={[20, 20]}>
       <div id={style.skills}>
         <ul>
+          <li>Amazon Web Services</li>
+          <li>AWS Serverless</li>
+          <li>AWS Lambda</li>
+          <li>AWS SNS</li>
+          <li>AWS SES</li>
+          <li>Route53</li>
+          <li>Cloudfront</li>
+          <li>API Gateway</li>
+          <li>EKS</li>
+          <li>MSK</li>
+          <li>Microservices</li>
+          <li>Istio</li>
           <li>Java</li>
           <li>J2EE</li>
           <li>Spring Boot</li>
@@ -57,11 +83,6 @@ const SkillsProgress = () => (
           <li>Scikit-Learn</li>
           <li>seaborn</li>
           <li>TensorFlow</li>
-          <li>Amazon Web Services</li>
-          <li>AWS Serverless</li>
-          <li>AWS Lambda</li>
-          <li>AWS DynamoDB</li>
-          <li>AWS Aurora</li>
           <li>Oracle</li>
           <li>MySQL</li>
           <li>PostgreSQL</li>
