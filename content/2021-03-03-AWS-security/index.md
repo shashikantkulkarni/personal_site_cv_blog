@@ -1,6 +1,6 @@
 ---
 title: "AWS Security"
-path: blog/aws-security
+path: blog/AWS-security
 tags: [aws, security, guardduty, inspector, network, data, compliance, encryption, kms, secrets]
 cover: aws-security.jpeg
 date: 2021-03-03T05:25:44.226Z
