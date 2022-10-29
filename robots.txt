@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://shashikantkulkarni.com/sitemap.xml
-Host: shashikantkulkarni.com
+Sitemap: https://www.shashikantkulkarni.com/sitemap/sitemap-index.xml
+Host: https://www.shashikantkulkarni.com
