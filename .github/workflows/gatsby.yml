@@ -87,8 +87,8 @@ jobs:
           user_name: ${{ secrets.USER_NAME }}
           user_email: ${{ secrets.USER_EMAIL }}
         run: |
-          git config user.email $user_email
-          git config user.name $user_name
+          git config --gloabl user.email $user_email
+          git config --gloabl user.name $user_name
           ${{ steps.detect-package-manager.outputs.manager }} run deploy
         
 
