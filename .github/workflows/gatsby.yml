@@ -86,9 +86,12 @@ jobs:
           PREFIX_PATHS: 'true'
           user_name: ${{ secrets.USER_NAME }}
           user_email: ${{ secrets.USER_EMAIL }}
+          github_token: ${{ secrets.GH_TOKEN }}
+          repository: ${{ github.repository }}
         run: |
           git config --global user.email $user_email
           git config --global user.name $user_name
+          git remote set-url origin https://${github_token}@github.com/${repository}
           ${{ steps.detect-package-manager.outputs.manager }} run deploy
         
 
