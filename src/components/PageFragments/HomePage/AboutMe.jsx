@@ -6,7 +6,7 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hi! My name is Shashikant Kulkarni. I'm a software engineer, <b>AWS certified cloud architect</b>, <b>Oracle certified software architect</b>,
+  paraOne: `Hi! My name is Shashikant Kulkarni. I'm an <b>AWS certified architect</b>, <b>Oracle certified software architect</b>,
     <b>certified Java developer</b>, <b>Cloudera certified hadoop developer</b>, bigdata developer. I like to experiment with different
     technologies.I have an experience working with <b>AWS services including Route53, Cloudfront, API Gateway, load balancers, EKS, MSK, AWS Organization, AWS Identity Center, Istio, etc</b>, <b>Java, Python, Spring boot, PHP, LAMP stack, JavaEE, Apache Spark,
     Apache Cassandra, Apache Kafka, NiFi</b>, ReactJS, Angular. I'm Machine Learning and AI enthusiast.`,
