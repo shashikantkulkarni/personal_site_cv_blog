@@ -33,6 +33,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: GitHub Config
+        run: |
+          git config user.email $user_email
+          git config user.name $user_name
+        env:
+          user_name: ${{ secrets.USER_NAME }}
+          user_email: ${{ secrets.USER_EMAIL }}
       - name: Checkout
         uses: actions/checkout@v3
       - name: run npm install and build # run npm install to create files.
