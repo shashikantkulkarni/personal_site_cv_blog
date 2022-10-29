@@ -35,6 +35,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: run npm install and build # run npm install to create files.
+        run: |
+          npm install
       - name: Detect package manager
         id: detect-package-manager
         run: |
